@@ -1,34 +1,34 @@
 ANSWERS
 
 (2)
-(c) Training MSE: XXXX
-(d) Test MSE: XXXX 
-(e) Your answer: XXXX
+(c) Training MSE: 1.5350956362420822
+(d) Test MSE: 1.7543308610948438
+(e) Your answer: The test MSE is smaller than the variance of y_test. This means that our model is able to explain some of the variance in the data, so it is better than just predicting the mean every time.
 
 
 (3)
 (b) 
-Feature 1: XXXX (coef: XXXX)
-Feature 2: XXXX (coef: XXXX)
-Feature 3: XXXX (coef: XXXX)
+Feature 1: Salnty Depthm (coef: 147.569766)
+Feature 2: Salnty Dry_T (coef: 35.153778)
+Feature 3: Salnty O2ml_L (coef: 32.217666)
 
 (c) 
-Feature 1: XXXX (coef: XXXX)
-Feature 2: XXXX (coef: XXXX)
-Feature 3: XXXX (coef: XXXX)
+Feature 1: Depthm (coef: -146.550613)
+Feature 2: O2ml_L (coef: -37.244657)
+Feature 3: Dry_T (coef: -34.383804)
 
-(d) y-intercept: XXXX 
+(d) y-intercept: 11.607865265528682
 
 (4) 
 (c1) Best hyperparameters: 
-* strategy: XXXX
-* poly degree: XXXX
-* n neighbors: XXXX
-* weight: XXXX
-(c2) Best MSE: XXXX
-(d) Time: XXXX
-(f) test MSE: XXXX 
-(g) Your answer: XXXX
+* strategy: median
+* poly degree: 10
+* n neighbors: 3
+* weight: distance
+(c2) Best MSE: 1.1942865460094283
+(d) Time: 45.2 seconds
+(f) test MSE: 1.2398437245052845 
+(g) Your answer: Yes, compared to the linear regression model in (2), the KNN model with optimized hyperparameters has a lower test MSE (1.2398 vs. 1.7543). This indicates that the KNN model is better at capturing the underlying patterns in the data.
 
 (5) - (Repeat of (4) with RandomizedGridSearch)
 (c1) Best hyperparameters: 
