@@ -43,9 +43,9 @@ Feature 3: Dry_T (coef: -34.383804)
 (h) Your answer: The Grid Search method is more thorough and can potentially find better hyperparameters, leading to a lower test MSE. However, it is also much more computationally expensive and time-consuming. The Randomized Grid Search, while slightly less effective in this case, provides a good balance between performance and efficiency, making it a practical choice for larger datasets or when quick results are needed.
 
 (6) 
-(b1) Training MSE: XXXX
-(b2) Test MSE: XXXX 
-(c) Your answer: XXXX
+(b1) Training MSE: 1.535095636242087
+(b2) Test MSE: 1.7543308610948491
+(c) Your answer: The extra variables did not improve the model's performance. The training and test MSE values are slightly larger compared to those obtained using only the selected features, indicating that the additional variables did not provide any significant predictive power and may have introduced noise into the model.
 
 (7) 
 (b) Your answer: XXXX
