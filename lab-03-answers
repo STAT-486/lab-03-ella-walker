@@ -32,15 +32,15 @@ Feature 3: Dry_T (coef: -34.383804)
 
 (5) - (Repeat of (4) with RandomizedGridSearch)
 (c1) Best hyperparameters: 
-* strategy: XXXX
-* poly degree: XXXX
-* n neighbors: XXXX
-* weight: XXXX
-(c2) Best MSE: XXXX
-(d) Time: XXXX
-(f) test MSE: XXXX 
-(g) Your answer: XXXX
-(h) Your answer: XXXX
+* strategy: median
+* poly degree: 2
+* n neighbors: 40
+* weight: distance
+(c2) Best MSE: 1.4213703346746598
+(d) Time: 2.0 seconds
+(f) test MSE: 1.2989312431187976
+(g) Your answer: The Randomized Grid Search was not quite as effective as the full Grid Search in finding the optimal hyperparameters, as evidenced by the slightly higher test MSE (1.2989 vs. 1.2398). However, it was significantly faster (2.0 seconds vs. 45.2 seconds), making it a more efficient choice when computational resources or time are limited.
+(h) Your answer: The Grid Search method is more thorough and can potentially find better hyperparameters, leading to a lower test MSE. However, it is also much more computationally expensive and time-consuming. The Randomized Grid Search, while slightly less effective in this case, provides a good balance between performance and efficiency, making it a practical choice for larger datasets or when quick results are needed.
 
 (6) 
 (b1) Training MSE: XXXX
