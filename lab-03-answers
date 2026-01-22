@@ -48,5 +48,5 @@ Feature 3: Dry_T (coef: -34.383804)
 (c) Your answer: The extra variables did not improve the model's performance. The training and test MSE values are slightly larger compared to those obtained using only the selected features, indicating that the additional variables did not provide any significant predictive power and may have introduced noise into the model.
 
 (7) 
-(b) Your answer: XXXX
+(b) Your answer: After skimming the HOML section and the Scikit-Learn examples I found, I learned that pipelines can be used to streamline the machine learning workflow by chaining together multiple processing steps, such as data preprocessing, feature selection, and model training. This allows for cleaner code, easier experimentation with different models and hyperparameters, and helps prevent data leakage by ensuring that all transformations are applied consistently during both training and testing phases. Additionally, pipelines facilitate hyperparameter tuning by allowing the entire process to be treated as a single entity during cross-validation or grid search.
 
